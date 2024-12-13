@@ -1,0 +1,6 @@
+Let's say you have an application with two different implementations of a Shape interface
+: Circle and Square. You want to inject one of these implementations into a Draw class.
+In the Driver class, you will use @Autowired along with @Qualifier to
+specify which Shape implementation to inject.
+In this example, the @Qualifier("circle") annotation specifies that
+the Circle implementation should be injected into the Draw class.
